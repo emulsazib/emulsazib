@@ -48,24 +48,27 @@ Whether I'm shipping a **multi-tenant SaaS platform**, modeling a **custom micro
 
 | 🔭 Project | Focus |
 |-----------|-------|
-| **Smartlard.ai** | A property-management platform bridging automated listing metrics with smart-hardware overrides. |
+| **Rentari.ai** | A property-management platform bridging automated listing metrics with smart-hardware overrides. |
 | **AETHER** | An AI-Enabled Framework for **Automated Malware Analysis, Attribution & Explainable AI (XAI)**. |
 | **Low-Level Architecture** | Custom **LLVM frontends** and **MIPS datapath simulation** — exploring how compilers meet silicon. |
-| ⚽ **Football Analytics** | Modeling historical **UEFA Champions League** player stats & career milestones for fun. |
+| **knbase** | Ai agent **memory governance** npm packege ![knbase](https://www.npmjs.com/package/@vonneollc/knbase) manage memory and share knowledge between ai agents |
+| **CombinePro** | A multi agent IDE. ![CombinePro](https://github.com/emulsazib/CombinePro) manage all ai agents for specific task in a project |
 
 ---
 
 ## 🛠️ Tech Stack & Toolbox
 
 ### 💻 Full-Stack Development
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![Claude Agent SDK](https://img.shields.io/badge/Claude%20Agent%20SDK-D97757?style=flat&logo=anthropic&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=flate&logo=webrtc&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-005571?style=flat&logo=fastapi&logoColor=white)
 
 ### 🔩 Embedded Systems & Hardware
 ![STM32](https://img.shields.io/badge/STM32%20Blue%20Pill-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
