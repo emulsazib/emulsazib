@@ -250,11 +250,113 @@ def trophy_card():
     return s + asof(W, H) + '</svg>\n'
 
 
+# ─────────────────────────── card 5: contribution-grid snake ───────────────────────────
+# An animated SVG: a snake sweeps the real contribution grid in a serpentine path,
+# "eating" each filled cell as its head passes (SMIL, synced to one clock, loops forever).
+# Self-hosted replacement for the Platane/snk GitHub Action image.
+def snake_card():
+    import datetime
+    # ── EDIT THESE ── grid window end + the filled days in it (date -> contribution count).
+    # Missing days in the 53-week window are treated as empty. Regenerate this block by
+    # re-running the contribution scrape; see scripts/README.md.
+    END = "2026-07-21"
+    filled = {
+        "2025-08-05": 1, "2025-08-06": 1, "2025-08-16": 3, "2025-10-05": 3,
+        "2025-10-26": 31, "2025-10-27": 4, "2025-10-30": 2, "2025-11-01": 12,
+        "2025-11-02": 2, "2025-11-03": 4, "2025-11-07": 35, "2025-11-08": 4,
+        "2025-11-09": 6, "2025-11-20": 1, "2025-11-21": 6, "2025-11-22": 2,
+        "2025-11-29": 10, "2025-12-01": 4, "2025-12-02": 4, "2025-12-03": 3,
+        "2025-12-04": 11, "2025-12-12": 1, "2025-12-13": 2, "2026-02-04": 2,
+        "2026-02-21": 1, "2026-02-22": 1, "2026-02-24": 1, "2026-03-09": 1, "2026-03-10": 4,
+        "2026-03-11": 2, "2026-04-03": 1, "2026-04-06": 3, "2026-04-07": 1, "2026-04-12": 2,
+        "2026-04-27": 1, "2026-04-28": 7, "2026-04-29": 1, "2026-06-08": 2, "2026-06-09": 5,
+        "2026-06-10": 2, "2026-06-13": 4, "2026-06-14": 5, "2026-06-15": 1, "2026-06-16": 1,
+        "2026-06-17": 1, "2026-06-18": 3, "2026-06-20": 2, "2026-06-21": 2, "2026-06-22": 2,
+        "2026-06-23": 7, "2026-06-24": 1, "2026-06-25": 12, "2026-06-28": 1,
+        "2026-07-01": 2, "2026-07-02": 11, "2026-07-03": 3, "2026-07-05": 9,
+        "2026-07-06": 5, "2026-07-09": 5, "2026-07-11": 3, "2026-07-12": 2, "2026-07-13": 3,
+        "2026-07-14": 10, "2026-07-16": 4, "2026-07-17": 15, "2026-07-18": 3,
+        "2026-07-19": 5, "2026-07-20": 11, "2026-07-21": 12,
+    }
+    DUR = 15.0            # seconds per full sweep (loops forever)
+    # blue level ramp on the #0d1117 panel, to match the rest of the profile
+    LVL = ["#161b22", "#0e3a5c", "#155e8b", "#1f7fc4", "#2C97DE"]
+    SNAKE = "#FF6F00"     # warm contrast against the blue grid (matches the streak flame)
+    # ────────────────
+
+    def level(n):
+        return 0 if n <= 0 else 1 if n < 3 else 2 if n < 6 else 3 if n < 10 else 4
+
+    end = datetime.date.fromisoformat(END)
+    start = end - datetime.timedelta(days=(end.weekday() + 1) % 7) - datetime.timedelta(weeks=52)
+    COLS, ROWS = 53, 7
+    cell, gap = 11, 3
+    pitch = cell + gap
+    ox, oy = 16, 34                      # grid origin (leaves room for a title row)
+    W = ox * 2 + COLS * pitch - gap
+    H = oy + ROWS * pitch - gap + 16
+
+    # visit order = vertical boustrophedon; collect drawable cells + the snake path
+    order, cells = [], {}
+    for c in range(COLS):
+        rows = range(ROWS) if c % 2 == 0 else range(ROWS - 1, -1, -1)
+        for r in rows:
+            d = start + datetime.timedelta(weeks=c, days=r)
+            if d > end:
+                continue
+            x = ox + c * pitch
+            y = oy + r * pitch
+            cells[(c, r)] = (x, y, filled.get(d.isoformat(), 0))
+            order.append((c, r, x + cell / 2, y + cell / 2))
+
+    V = len(order)
+    idx = {(c, r): i for i, (c, r, *_ ) in enumerate(order)}   # cell -> visit index
+    path = "M" + " L".join(f"{cx:.1f},{cy:.1f}" for _, _, cx, cy in order)
+
+    desc = (f"Animated contribution grid for the 53 weeks ending {END}: a snake sweeps the "
+            f"grid and eats each active day. {len(filled)} active days.")
+    s = head(W, H, "Contribution snake", desc)
+    s += (f'  <text x="{ox}" y="24" font-family="{SANS}" font-size="14" font-weight="600" '
+          f'fill="{ACCENT}">Contribution Snake</text>\n')
+
+    # grid cells; filled ones get a SMIL "eaten" transition synced to the head's arrival
+    eat = 0.15 / DUR                     # fraction of the loop the fade takes
+    for c in range(COLS):
+        for r in range(ROWS):
+            if (c, r) not in cells:
+                continue
+            x, y, n = cells[(c, r)]
+            lv = level(n)
+            s += (f'  <rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2.5" '
+                  f'fill="{LVL[lv]}">')
+            if lv > 0:
+                a = idx[(c, r)] / (V - 1)     # head arrives here at this fraction of the loop
+                b = min(a + eat, 1.0)
+                s += (f'<animate attributeName="fill" values="{LVL[lv]};{LVL[lv]};{LVL[0]};{LVL[0]}" '
+                      f'keyTimes="0;{a:.4f};{b:.4f};1" dur="{DUR}s" begin="0s" '
+                      f'repeatCount="indefinite" calcMode="discrete"/>')
+            s += '</rect>\n'
+
+    # snake: head + trailing body segments, all following the shared path
+    seg = [(SNAKE, 1.0, cell + 1), (SNAKE, 0.85, cell), (SNAKE, 0.7, cell - 1),
+           (SNAKE, 0.55, cell - 2), (SNAKE, 0.4, cell - 3)]
+    step = 0.45                          # seconds each body segment trails the one ahead
+    for i, (col, op, sz) in enumerate(seg):
+        off = sz / 2
+        s += (f'  <rect x="{-off:.1f}" y="{-off:.1f}" width="{sz}" height="{sz}" rx="{sz/3:.1f}" '
+              f'fill="{col}" opacity="{op}">'
+              f'<animateMotion path="{path}" dur="{DUR}s" begin="{i*step:.2f}s" '
+              f'repeatCount="indefinite" calcMode="linear"/></rect>\n')
+
+    return s + asof(W, H) + '</svg>\n'
+
+
 CARDS = {
     "stats":  ("stats-card.svg",     stats_card),
     "streak": ("streak-card.svg",    streak_card),
     "langs":  ("top-langs-card.svg", langs_card),
     "trophy": ("trophy-card.svg",    trophy_card),
+    "snake":  ("snake.svg",          snake_card),
 }
 
 if __name__ == "__main__":

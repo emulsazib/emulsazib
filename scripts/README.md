@@ -11,6 +11,7 @@ profile README:
 | `assets/streak-card.svg`    | Total contributions, current streak, longest streak | `streak` |
 | `assets/top-langs-card.svg` | Most-used languages bar + legend | `langs` |
 | `assets/trophy-card.svg`    | Achievement tiles with letter ranks per metric | `trophy` |
+| `assets/snake.svg`          | Animated snake eating the contribution grid (SMIL) | `snake` |
 
 These are **static snapshots**, not live widgets — that's deliberate (no reliance
 on a third-party rendering service), so the numbers only change when you re-run
@@ -32,6 +33,19 @@ this script.
 
 The accessibility `<desc>` text, the language-bar segment widths, and the trophy
 letter ranks are all **derived** from the values you edit, so they can't drift.
+
+### About the snake
+
+`assets/snake.svg` is a **self-hosted replacement** for the Platane/snk GitHub
+Action (which was never set up here — the `output` branch didn't exist, so the old
+image 404'd). It's an animated SVG: a snake follows a serpentine path across the
+53-week grid and "eats" each active day as it passes, looping forever via SMIL.
+
+Because it's a static snapshot, it does **not** auto-update. To refresh: re-scrape
+the contribution calendar, replace the `END` date and `filled` day→count map in
+`snake_card()`, then `python3 scripts/gen_cards.py snake`. The animation uses
+SMIL (`<animateMotion>` + `<animate>`); it renders as a still first frame in
+non-animating contexts but animates in any modern browser (i.e. on GitHub).
 
 ### About the trophy ranks
 
