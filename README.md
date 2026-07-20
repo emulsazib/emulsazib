@@ -80,13 +80,13 @@ Whether I'm shipping a **multi-tenant SaaS platform**, modeling a **custom micro
 ![Logisim](https://img.shields.io/badge/Logisim-4B8BBE?style=flat&logo=logmein&logoColor=white)
 
 ### 🛡️ Cybersecurity, AI & Low-Level Architecture
-![Malware Analysis](https://img.shields.io/badge/Malware%20Analysis-8B0000?style=flat&logo=virustotal&logoColor=white)
-![Reverse Engineering](https://img.shields.io/badge/Reverse%20Engineering%20(dnSpy)-512BD4?style=flat&logo=dotnet&logoColor=white)
-![YOLOv11](https://img.shields.io/badge/YOLOv11-00FFFF?style=flat&logo=opencv&logoColor=black)
-![Deep RL](https://img.shields.io/badge/Deep%20Reinforcement%20Learning-FF4088?style=flat&logo=pytorch&logoColor=white)
-![LLVM](https://img.shields.io/badge/LLVM-262D3A?style=flat&logo=llvm&logoColor=white)
-![Assembly](https://img.shields.io/badge/Assembly%20%26%20Custom%20ISA-6E4C13?style=flat&logo=gnubash&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Malware Analysis](https://img.shields.io/badge/Malware%20Analysis-8B000lat&logo=virustotal&logoColor=white)
+![Reverse Engineering](https://img.shields.io/badge/Reverse%20Engineering%20(dnSpy)-512BDlat&logo=dotnet&logoColor=white)
+![YOLOv11](https://img.shields.io/badge/YOLOv11-00FFFlat&logo=opencv&logoColor=black)
+![Deep RL](https://img.shields.io/badge/Deep%20Reinforcement%20Learning-FF408lat&logo=pytorch&logoColor=white)
+![LLVM](https://img.shields.io/badge/LLVM-262D3lat&logo=llvm&logoColor=white)
+![Assembly](https://img.shields.io/badge/Assembly%20%26%20Custom%20ISA-6E4C1lat&logo=gnubash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776Alat&logo=python&logoColor=white)
 
 ---
 
@@ -156,10 +156,10 @@ Whether I'm shipping a **multi-tenant SaaS platform**, modeling a **custom micro
 
 I'm always open to collaborating on **full-stack, embedded, IoT, or AI-security** projects — or just talking shop about compilers, microcontrollers, and Champions League stats.
 
-[![Portfolio](https://img.shields.io/badge/🌐%20emulsazib.me-2C97DE?style=for-the-badge)](https://emulsazib.me)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emulahamedsazib/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:emul.sazib@gmail.com)
-[![X](https://img.shields.io/badge/X%2FTwitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/emulsazib)
+[![Portfolio](https://img.shields.io/badge/🌐%20emulsazib.me-2C97DE?style=flat)](https://emulsazib.me)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emulahamedsazib/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:emul.sazib@gmail.com)
+[![X](https://img.shields.io/badge/X%2FTwitter-000000?style=flat&logo=x&logoColor=white)](https://x.com/emulsazib)
 
 </div>
 
