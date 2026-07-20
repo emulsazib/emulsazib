@@ -19,9 +19,9 @@
 
 <!-- ============================ SOCIAL / STATS BADGES ============================ -->
 [![Portfolio](https://img.shields.io/badge/Portfolio-emulsazib.me-2C97DE?style=for-the-badge&logo=googlechrome&logoColor=white)](https://emulsazib.me)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
-[![X](https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOUR_HANDLE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/emulsazib)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:emul.sazib@gmail.com)
+[![X](https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/emulsazib)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=emulsazib&label=Profile%20Views&color=2C97DE&style=flat-square)
 ![Location](https://img.shields.io/badge/Based%20in-Dhaka,%20Bangladesh-107C41?style=flat-square&logo=googlemaps&logoColor=white)
