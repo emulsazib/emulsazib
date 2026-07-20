@@ -51,8 +51,8 @@ Whether I'm shipping a **multi-tenant SaaS platform**, modeling a **custom micro
 | **Rentari.ai** | A property-management platform bridging automated listing metrics with smart-hardware overrides. |
 | **AETHER** | An AI-Enabled Framework for **Automated Malware Analysis, Attribution & Explainable AI (XAI)**. |
 | **Low-Level Architecture** | Custom **LLVM frontends** and **MIPS datapath simulation** — exploring how compilers meet silicon. |
-| **knbase** | Ai agent **memory governance** npm packege ![knbase](https://www.npmjs.com/package/@vonneollc/knbase) manage memory and share knowledge between ai agents |
-| **CombinePro** | A multi agent IDE. ![CombinePro](https://github.com/emulsazib/CombinePro) manage all ai agents for specific task in a project |
+| **knbase** | Ai agent **memory governance** npm packege [knbase](https://www.npmjs.com/package/@vonneollc/knbase) manage memory and share knowledge between ai agents |
+| **CombinePro** | A multi agent IDE. [CombinePro](https://github.com/emulsazib/CombinePro) manage all ai agents for specific task in a project |
 
 ---
 
