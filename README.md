@@ -18,10 +18,10 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=2C97DE&center=true&vCenter=true&width=720&lines=Software+Engineer+%40+North+South+University;Full-Stack+%7C+React+%2B+Node+%2B+Flutter;Embedded+Systems+%7C+STM32+%2B+ESP32+%2B+C;AI-Enabled+Cybersecurity+%26+Malware+Analysis;I+build+where+software+meets+hardware.)](https://git.io/typing-svg)
 
 <!-- ============================ SOCIAL / STATS BADGES ============================ -->
-[![Portfolio](https://img.shields.io/badge/Portfolio-emulsazib.me-2C97DE?style=for-the-badge&logo=googlechrome&logoColor=white)](https://emulsazib.me)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/emulsazib)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:emul.sazib@gmail.com)
-[![X](https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/emulsazib)
+[![Portfolio](https://img.shields.io/badge/Portfolio-emulsazib.me-2C97DE?style=flat&logo=googlechrome&logoColor=white)](https://emulsazib.me)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/emulsazib)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat&logo=gmail&logoColor=white)](mailto:emul.sazib@gmail.com)
+[![X](https://img.shields.io/badge/X-Follow-00000lat&logo=x&logoColor=white)](https://x.com/emulsazib)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=emulsazib&label=Profile%20Views&color=2C97DE&style=flat-square)
 ![Location](https://img.shields.io/badge/Based%20in-Dhaka,%20Bangladesh-107C41?style=flat-square&logo=googlemaps&logoColor=white)
@@ -71,22 +71,22 @@ Whether I'm shipping a **multi-tenant SaaS platform**, modeling a **custom micro
 ![REST API](https://img.shields.io/badge/REST%20API-005571?style=flat&logo=fastapi&logoColor=white)
 
 ### 🔩 Embedded Systems & Hardware
-![STM32](https://img.shields.io/badge/STM32%20Blue%20Pill-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32--WROOM%2FCAM-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![C](https://img.shields.io/badge/C%20(HAL)-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![Arduino](https://img.shields.io/badge/Arduino%20IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![OpenOCD](https://img.shields.io/badge/OpenOCD-6DB33F?style=for-the-badge&logo=gnu&logoColor=white)
-![I2C](https://img.shields.io/badge/I2C-FF6F00?style=for-the-badge&logo=texasinstruments&logoColor=white)
-![Logisim](https://img.shields.io/badge/Logisim-4B8BBE?style=for-the-badge&logo=logmein&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32%20Blue%20Pill-03234B?style=flat&logo=stmicroelectronics&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32--WROOM%2FCAM-E7352C?style=flat&logo=espressif&logoColor=white)
+![C](https://img.shields.io/badge/C%20(HAL)-A8B9CC?style=flat&logo=c&logoColor=black)
+![Arduino](https://img.shields.io/badge/Arduino%20IDE-00979D?style=flat&logo=arduino&logoColor=white)
+![OpenOCD](https://img.shields.io/badge/OpenOCD-6DB33F?style=flat&logo=gnu&logoColor=white)
+![I2C](https://img.shields.io/badge/I2C-FF6F00?style=flat&logo=texasinstruments&logoColor=white)
+![Logisim](https://img.shields.io/badge/Logisim-4B8BBE?style=flat&logo=logmein&logoColor=white)
 
 ### 🛡️ Cybersecurity, AI & Low-Level Architecture
-![Malware Analysis](https://img.shields.io/badge/Malware%20Analysis-8B0000?style=for-the-badge&logo=virustotal&logoColor=white)
-![Reverse Engineering](https://img.shields.io/badge/Reverse%20Engineering%20(dnSpy)-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![YOLOv11](https://img.shields.io/badge/YOLOv11-00FFFF?style=for-the-badge&logo=opencv&logoColor=black)
-![Deep RL](https://img.shields.io/badge/Deep%20Reinforcement%20Learning-FF4088?style=for-the-badge&logo=pytorch&logoColor=white)
-![LLVM](https://img.shields.io/badge/LLVM-262D3A?style=for-the-badge&logo=llvm&logoColor=white)
-![Assembly](https://img.shields.io/badge/Assembly%20%26%20Custom%20ISA-6E4C13?style=for-the-badge&logo=gnubash&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Malware Analysis](https://img.shields.io/badge/Malware%20Analysis-8B0000?style=flat&logo=virustotal&logoColor=white)
+![Reverse Engineering](https://img.shields.io/badge/Reverse%20Engineering%20(dnSpy)-512BD4?style=flat&logo=dotnet&logoColor=white)
+![YOLOv11](https://img.shields.io/badge/YOLOv11-00FFFF?style=flat&logo=opencv&logoColor=black)
+![Deep RL](https://img.shields.io/badge/Deep%20Reinforcement%20Learning-FF4088?style=flat&logo=pytorch&logoColor=white)
+![LLVM](https://img.shields.io/badge/LLVM-262D3A?style=flat&logo=llvm&logoColor=white)
+![Assembly](https://img.shields.io/badge/Assembly%20%26%20Custom%20ISA-6E4C13?style=flat&logo=gnubash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
 ---
 
