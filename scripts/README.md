@@ -1,0 +1,51 @@
+# scripts/
+
+## `gen_cards.py` — regenerate the GitHub stat cards
+
+Generates the three static SVGs shown in the **GitHub Analytics** section of the
+profile README:
+
+| Output | Card |
+|--------|------|
+| `assets/stats-card.svg`     | Stars / commits / PRs / issues / repos + contributions ring |
+| `assets/streak-card.svg`    | Total contributions, current streak, longest streak |
+| `assets/top-langs-card.svg` | Most-used languages bar + legend |
+
+These are **static snapshots**, not live widgets — that's deliberate (no reliance
+on a third-party rendering service), so the numbers only change when you re-run
+this script.
+
+### Update the numbers
+
+1. Open [`gen_cards.py`](gen_cards.py). Each card has an `── EDIT THESE ──` block
+   at the top of its function (`stats_card`, `streak_card`, `langs_card`).
+2. Change the values. Also bump `ASOF` (the "as of" date stamp near the top).
+3. Regenerate — run from anywhere, the output path is resolved relative to the script:
+
+   ```bash
+   python3 scripts/gen_cards.py
+   ```
+
+4. Commit the changed `assets/*.svg`.
+
+The accessibility `<desc>` text and the language-bar segment widths are **derived**
+from the values you edit, so they can't drift out of sync.
+
+### One thing the script does NOT touch
+
+The `<img alt="...">` text in `README.md` repeats some headline numbers for
+screen-reader users. If you change the big figures (e.g. total contributions),
+update those `alt` strings by hand too.
+
+### Where the numbers came from
+
+A snapshot pulled from the public GitHub API + the contribution calendar:
+
+- **Languages** are weighted **per repository** (each repo counts equally) rather
+  than by raw bytes. Byte-weighting is skewed here because one repo vendors a full
+  CPython source tree, which would otherwise report ~86% Python. The card is
+  labelled *"normalised per repository"* to make that explicit.
+- **Streaks** are computed from the daily contribution calendar, capped at the
+  snapshot date.
+
+No dependencies beyond the Python 3 standard library.

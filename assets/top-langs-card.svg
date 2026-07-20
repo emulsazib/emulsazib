@@ -1,43 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 188" role="img" aria-labelledby="t d" preserveAspectRatio="xMidYMid meet">
   <title id="t">Most Used Languages</title>
-  <desc id="d">Static snapshot of language usage, normalised per repository: Python 26.0 percent, JavaScript 17.0 percent, Java 9.1 percent, Kotlin 9.1 percent, C++ 9.0 percent, C 8.6 percent, TypeScript 7.2 percent, Jupyter Notebook 6.0 percent.</desc>
+  <desc id="d">Static snapshot of language usage, normalised per repository: Python 65.0 percent, JavaScript 57.0 percent, Java 59.1 percent, Kotlin 19.1 percent, C++ 39.0 percent, C 38.6 percent, TypeScript 27.2 percent, Jupyter Notebook 26.0 percent.</desc>
   <rect width="350" height="188" rx="6" fill="#0d1117"/>
   <text x="20" y="30" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="600" fill="#2C97DE">Most Used Languages</text>
   <mask id="bar"><rect x="20" y="44" width="310" height="10" rx="5" fill="#fff"/></mask>
   <g mask="url(#bar)">
-    <rect x="20.00" y="44" width="87.61" height="10" fill="#3572A5"/>
-    <rect x="107.61" y="44" width="57.28" height="10" fill="#f1e05a"/>
-    <rect x="164.89" y="44" width="30.66" height="10" fill="#b07219"/>
-    <rect x="195.55" y="44" width="30.66" height="10" fill="#A97BFF"/>
-    <rect x="226.22" y="44" width="30.33" height="10" fill="#f34b7d"/>
-    <rect x="256.54" y="44" width="28.98" height="10" fill="#555555"/>
-    <rect x="285.52" y="44" width="24.26" height="10" fill="#3178c6"/>
-    <rect x="309.78" y="44" width="20.22" height="10" fill="#DA5B0B"/>
+    <rect x="20.00" y="44" width="60.88" height="10" fill="#3572A5"/>
+    <rect x="80.88" y="44" width="53.38" height="10" fill="#f1e05a"/>
+    <rect x="134.26" y="44" width="55.35" height="10" fill="#b07219"/>
+    <rect x="189.61" y="44" width="17.89" height="10" fill="#A97BFF"/>
+    <rect x="207.50" y="44" width="36.53" height="10" fill="#f34b7d"/>
+    <rect x="244.02" y="44" width="36.15" height="10" fill="#555555"/>
+    <rect x="280.18" y="44" width="25.47" height="10" fill="#3178c6"/>
+    <rect x="305.65" y="44" width="24.35" height="10" fill="#DA5B0B"/>
   </g>
   <circle cx="26" cy="78" r="5" fill="#3572A5"/>
   <text x="37" y="82" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="10.5" fill="#9f9f9f">Python</text>
-  <text x="168" y="82" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6b7681">26.0%</text>
+  <text x="168" y="82" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6b7681">65.0%</text>
   <circle cx="184" cy="78" r="5" fill="#f1e05a"/>
   <text x="195" y="82" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="10.5" fill="#9f9f9f">JavaScript</text>
-  <text x="326" y="82" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6b7681">17.0%</text>
+  <text x="326" y="82" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6b7681">57.0%</text>
   <circle cx="26" cy="99" r="5" fill="#b07219"/>
   <text x="37" y="103" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="10.5" fill="#9f9f9f">Java</text>
-  <text x="168" y="103" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6b7681">9.1%</text>
+  <text x="168" y="103" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6b7681">59.1%</text>
   <circle cx="184" cy="99" r="5" fill="#A97BFF"/>
   <text x="195" y="103" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="10.5" fill="#9f9f9f">Kotlin</text>
-  <text x="326" y="103" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6b7681">9.1%</text>
+  <text x="326" y="103" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6b7681">19.1%</text>
   <circle cx="26" cy="120" r="5" fill="#f34b7d"/>
   <text x="37" y="124" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="10.5" fill="#9f9f9f">C++</text>
-  <text x="168" y="124" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6b7681">9.0%</text>
+  <text x="168" y="124" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6b7681">39.0%</text>
   <circle cx="184" cy="120" r="5" fill="#555555"/>
   <text x="195" y="124" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="10.5" fill="#9f9f9f">C</text>
-  <text x="326" y="124" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6b7681">8.6%</text>
+  <text x="326" y="124" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6b7681">38.6%</text>
   <circle cx="26" cy="141" r="5" fill="#3178c6"/>
   <text x="37" y="145" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="10.5" fill="#9f9f9f">TypeScript</text>
-  <text x="168" y="145" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6b7681">7.2%</text>
+  <text x="168" y="145" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6b7681">27.2%</text>
   <circle cx="184" cy="141" r="5" fill="#DA5B0B"/>
   <text x="195" y="145" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="10.5" fill="#9f9f9f">Jupyter Notebook</text>
-  <text x="326" y="145" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6b7681">6.0%</text>
+  <text x="326" y="145" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6b7681">26.0%</text>
   <text x="20" y="179" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.5" fill="#6b7681">normalised per repository</text>
   <text x="336" y="179" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" fill="#6b7681">as of 21 Jul 2026</text>
 </svg>
