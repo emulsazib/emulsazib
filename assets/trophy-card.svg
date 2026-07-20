@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 175" role="img" aria-labelledby="t d" preserveAspectRatio="xMidYMid meet">
+  <title id="t">GitHub Achievements</title>
+  <desc id="d">GitHub achievements (tunable thresholds): Stars rank A (20), Commits rank A (125), Followers rank B (11), Repos rank A (24), PRs rank B (6), Issues rank C (0), Contribs rank B (375).</desc>
+  <rect width="880" height="175" rx="6" fill="#0d1117"/>
+  <text x="16" y="30" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="600" fill="#2C97DE">GitHub Achievements</text>
+  <rect x="16.0" y="46" width="114.3" height="104" rx="6" fill="#0e1622" stroke="#4FB0F0" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="16.0" y="46" width="114.3" height="3" rx="1.5" fill="#4FB0F0"/>
+  <text x="73.1" y="88" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700" fill="#4FB0F0">A</text>
+  <text x="73.1" y="109" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="9.5" fill="#6b7681">Stars</text>
+  <text x="73.1" y="129" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">20</text>
+  <rect x="28.0" y="138" width="90.3" height="4" rx="2" fill="#1f2630"/>
+  <rect x="28.0" y="138" width="0.0" height="4" rx="2" fill="#4FB0F0"/>
+  <rect x="138.3" y="46" width="114.3" height="104" rx="6" fill="#0e1622" stroke="#4FB0F0" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="138.3" y="46" width="114.3" height="3" rx="1.5" fill="#4FB0F0"/>
+  <text x="195.4" y="88" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700" fill="#4FB0F0">A</text>
+  <text x="195.4" y="109" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="9.5" fill="#6b7681">Commits</text>
+  <text x="195.4" y="129" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">125</text>
+  <rect x="150.3" y="138" width="90.3" height="4" rx="2" fill="#1f2630"/>
+  <rect x="150.3" y="138" width="5.6" height="4" rx="2" fill="#4FB0F0"/>
+  <rect x="260.6" y="46" width="114.3" height="104" rx="6" fill="#0e1622" stroke="#3FB950" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="260.6" y="46" width="114.3" height="3" rx="1.5" fill="#3FB950"/>
+  <text x="317.7" y="88" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700" fill="#3FB950">B</text>
+  <text x="317.7" y="109" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="9.5" fill="#6b7681">Followers</text>
+  <text x="317.7" y="129" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">11</text>
+  <rect x="272.6" y="138" width="90.3" height="4" rx="2" fill="#1f2630"/>
+  <rect x="272.6" y="138" width="27.1" height="4" rx="2" fill="#3FB950"/>
+  <rect x="382.9" y="46" width="114.3" height="104" rx="6" fill="#0e1622" stroke="#4FB0F0" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="382.9" y="46" width="114.3" height="3" rx="1.5" fill="#4FB0F0"/>
+  <text x="440.0" y="88" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700" fill="#4FB0F0">A</text>
+  <text x="440.0" y="109" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="9.5" fill="#6b7681">Repos</text>
+  <text x="440.0" y="129" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">24</text>
+  <rect x="394.9" y="138" width="90.3" height="4" rx="2" fill="#1f2630"/>
+  <rect x="394.9" y="138" width="12.0" height="4" rx="2" fill="#4FB0F0"/>
+  <rect x="505.1" y="46" width="114.3" height="104" rx="6" fill="#0e1622" stroke="#3FB950" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="505.1" y="46" width="114.3" height="3" rx="1.5" fill="#3FB950"/>
+  <text x="562.3" y="88" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700" fill="#3FB950">B</text>
+  <text x="562.3" y="109" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="9.5" fill="#6b7681">PRs</text>
+  <text x="562.3" y="129" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">6</text>
+  <rect x="517.1" y="138" width="90.3" height="4" rx="2" fill="#1f2630"/>
+  <rect x="517.1" y="138" width="22.6" height="4" rx="2" fill="#3FB950"/>
+  <rect x="627.4" y="46" width="114.3" height="104" rx="6" fill="#0e1622" stroke="#6b7681" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="627.4" y="46" width="114.3" height="3" rx="1.5" fill="#6b7681"/>
+  <text x="684.6" y="88" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700" fill="#6b7681">C</text>
+  <text x="684.6" y="109" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="9.5" fill="#6b7681">Issues</text>
+  <text x="684.6" y="129" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">0</text>
+  <rect x="639.4" y="138" width="90.3" height="4" rx="2" fill="#1f2630"/>
+  <rect x="639.4" y="138" width="0.0" height="4" rx="2" fill="#6b7681"/>
+  <rect x="749.7" y="46" width="114.3" height="104" rx="6" fill="#0e1622" stroke="#3FB950" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="749.7" y="46" width="114.3" height="3" rx="1.5" fill="#3FB950"/>
+  <text x="806.9" y="88" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700" fill="#3FB950">B</text>
+  <text x="806.9" y="109" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="9.5" fill="#6b7681">Contribs</text>
+  <text x="806.9" y="129" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">375</text>
+  <rect x="761.7" y="138" width="90.3" height="4" rx="2" fill="#1f2630"/>
+  <rect x="761.7" y="138" width="82.8" height="4" rx="2" fill="#3FB950"/>
+  <text x="866" y="166" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" fill="#6b7681">as of 21 Jul 2026</text>
+</svg>

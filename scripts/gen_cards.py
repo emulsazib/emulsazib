@@ -48,6 +48,36 @@ def asof(w, h):
             f'font-size="9" fill="{MUTED}">as of {ASOF}</text>\n')
 
 
+# tier ladder, lowest → highest, with the colour each tier is drawn in
+TIERS = ["C", "B", "A", "AA", "AAA", "S", "SS", "SSS"]
+TIER_COLOR = {
+    "C": "#6b7681", "B": "#3FB950", "A": "#4FB0F0", "AA": "#2C97DE",
+    "AAA": "#1f7fc4", "S": "#FFC93C", "SS": "#FFB000", "SSS": "#FFD700",
+}
+
+
+def rank(value, cutoffs):
+    """Map a value to a tier using `cutoffs` (7 ascending thresholds for B..SSS).
+
+    These thresholds are OUR tunable scheme — they are NOT ryo-ma/github-profile-
+    trophy's private grading. Below the first cutoff is C; edit the cutoffs per
+    metric in trophy_card() to taste. Returns (tier_label, progress_to_next 0..1).
+    """
+    t = 0
+    for c in cutoffs:
+        if value >= c:
+            t += 1
+        else:
+            break
+    if t >= len(cutoffs):                       # already at SSS
+        prog = 1.0
+    else:
+        lower = cutoffs[t - 1] if t > 0 else 0
+        span = cutoffs[t] - lower
+        prog = max(0.0, min(1.0, (value - lower) / span)) if span else 1.0
+    return TIERS[t], prog
+
+
 # ─────────────────────────── card 1: overview stats ───────────────────────────
 def stats_card():
     W, H = 460, 165
@@ -172,11 +202,71 @@ def langs_card():
     return s + asof(W, H) + '</svg>\n'
 
 
+# ─────────────────────────── card 4: trophies / achievements ───────────────────────────
+def trophy_card():
+    W, H = 880, 175
+    # ── EDIT THESE ── (label, value, cutoffs for B,A,AA,AAA,S,SS,SSS).
+    # Cutoffs are a tunable scheme, NOT GitHub's official trophy grading — see rank().
+    metrics = [
+        ("Stars",     20,  [5, 20, 50, 150, 500, 1000, 2000]),
+        ("Commits",   125, [30, 100, 500, 1000, 2000, 5000, 10000]),
+        ("Followers", 11,  [5, 25, 75, 250, 1000, 3000, 10000]),
+        ("Repos",     24,  [5, 20, 50, 100, 200, 500, 1000]),
+        ("PRs",       6,   [3, 15, 40, 100, 300, 500, 1000]),
+        ("Issues",    0,   [3, 15, 40, 100, 300, 500, 1000]),
+        ("Contribs",  375, [100, 400, 1000, 2000, 5000, 10000, 20000]),
+    ]
+    # ────────────────
+    graded = [(lbl, val, *rank(val, cut)) for lbl, val, cut in metrics]  # (label, value, tier, prog)
+
+    desc = "GitHub achievements (tunable thresholds): " + ", ".join(
+        f"{lbl} rank {tier} ({val})" for lbl, val, tier, _ in graded) + "."
+    s = head(W, H, "GitHub Achievements", desc)
+    s += (f'  <text x="16" y="30" font-family="{SANS}" font-size="15" font-weight="600" '
+          f'fill="{ACCENT}">GitHub Achievements</text>\n')
+
+    pad, gap, n = 16, 8, len(graded)
+    tw = (W - 2 * pad - gap * (n - 1)) / n
+    top, th = 46, 104
+    for i, (lbl, val, tier, prog) in enumerate(graded):
+        tx = pad + i * (tw + gap)
+        cx = tx + tw / 2
+        col = TIER_COLOR[tier]
+        fs = {1: 26, 2: 21, 3: 16}[len(tier)]           # shrink so "SSS" still fits
+        # tile + tier-coloured top accent
+        s += (f'  <rect x="{tx:.1f}" y="{top}" width="{tw:.1f}" height="{th}" rx="6" '
+              f'fill="#0e1622" stroke="{col}" stroke-opacity="0.4" stroke-width="1"/>\n'
+              f'  <rect x="{tx:.1f}" y="{top}" width="{tw:.1f}" height="3" rx="1.5" fill="{col}"/>\n'
+              f'  <text x="{cx:.1f}" y="{top+42}" text-anchor="middle" font-family="{SANS}" '
+              f'font-size="{fs}" font-weight="700" fill="{col}">{tier}</text>\n'
+              f'  <text x="{cx:.1f}" y="{top+63}" text-anchor="middle" font-family="{SANS}" '
+              f'font-size="9.5" fill="{MUTED}">{lbl}</text>\n'
+              f'  <text x="{cx:.1f}" y="{top+83}" text-anchor="middle" font-family="{SANS}" '
+              f'font-size="15" font-weight="700" fill="#ffffff">{val}</text>\n')
+        # progress-to-next-tier bar
+        bx, bw = tx + 12, tw - 24
+        s += (f'  <rect x="{bx:.1f}" y="{top+92}" width="{bw:.1f}" height="4" rx="2" fill="#1f2630"/>\n'
+              f'  <rect x="{bx:.1f}" y="{top+92}" width="{bw*prog:.1f}" height="4" rx="2" fill="{col}"/>\n')
+    return s + asof(W, H) + '</svg>\n'
+
+
+CARDS = {
+    "stats":  ("stats-card.svg",     stats_card),
+    "streak": ("streak-card.svg",    streak_card),
+    "langs":  ("top-langs-card.svg", langs_card),
+    "trophy": ("trophy-card.svg",    trophy_card),
+}
+
 if __name__ == "__main__":
+    import sys
     os.makedirs(OUT, exist_ok=True)
-    for name, fn in [("stats-card.svg", stats_card),
-                     ("streak-card.svg", streak_card),
-                     ("top-langs-card.svg", langs_card)]:
+    # optional args pick which cards to write; no args = all of them
+    selected = sys.argv[1:] or list(CARDS)
+    for key in selected:
+        if key not in CARDS:
+            print(f"unknown card '{key}'; choose from {', '.join(CARDS)}")
+            continue
+        name, fn = CARDS[key]
         p = os.path.join(OUT, name)
         with open(p, "w") as f:
             f.write(fn())

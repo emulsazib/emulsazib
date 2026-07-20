@@ -2,14 +2,15 @@
 
 ## `gen_cards.py` — regenerate the GitHub stat cards
 
-Generates the three static SVGs shown in the **GitHub Analytics** section of the
+Generates the static SVGs shown in the **GitHub Analytics** section of the
 profile README:
 
-| Output | Card |
-|--------|------|
-| `assets/stats-card.svg`     | Stars / commits / PRs / issues / repos + contributions ring |
-| `assets/streak-card.svg`    | Total contributions, current streak, longest streak |
-| `assets/top-langs-card.svg` | Most-used languages bar + legend |
+| Output | Card | Selector |
+|--------|------|----------|
+| `assets/stats-card.svg`     | Stars / commits / PRs / issues / repos + contributions ring | `stats` |
+| `assets/streak-card.svg`    | Total contributions, current streak, longest streak | `streak` |
+| `assets/top-langs-card.svg` | Most-used languages bar + legend | `langs` |
+| `assets/trophy-card.svg`    | Achievement tiles with letter ranks per metric | `trophy` |
 
 These are **static snapshots**, not live widgets — that's deliberate (no reliance
 on a third-party rendering service), so the numbers only change when you re-run
@@ -18,18 +19,27 @@ this script.
 ### Update the numbers
 
 1. Open [`gen_cards.py`](gen_cards.py). Each card has an `── EDIT THESE ──` block
-   at the top of its function (`stats_card`, `streak_card`, `langs_card`).
+   at the top of its function (`stats_card`, `streak_card`, `langs_card`, `trophy_card`).
 2. Change the values. Also bump `ASOF` (the "as of" date stamp near the top).
 3. Regenerate — run from anywhere, the output path is resolved relative to the script:
 
    ```bash
-   python3 scripts/gen_cards.py
+   python3 scripts/gen_cards.py          # all cards
+   python3 scripts/gen_cards.py trophy   # just one (or several, space-separated)
    ```
 
 4. Commit the changed `assets/*.svg`.
 
-The accessibility `<desc>` text and the language-bar segment widths are **derived**
-from the values you edit, so they can't drift out of sync.
+The accessibility `<desc>` text, the language-bar segment widths, and the trophy
+letter ranks are all **derived** from the values you edit, so they can't drift.
+
+### About the trophy ranks
+
+The `trophy` card assigns a letter tier (C → SSS) to each metric. Those tiers use
+**our own tunable thresholds** defined in `trophy_card()` — they are **not**
+ryo-ma/github-profile-trophy's official grading. Edit each metric's `cutoffs`
+list (7 ascending numbers = the bar to reach B, A, AA, AAA, S, SS, SSS) to
+recalibrate how generous the grades are.
 
 ### One thing the script does NOT touch
 

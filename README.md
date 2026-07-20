@@ -126,7 +126,7 @@ Whether I'm shipping a **multi-tenant SaaS platform**, modeling a **custom micro
 
 <img height="188" src="assets/top-langs-card.svg" alt="Most used languages, normalised per repository: Python 30.0%, JavaScript 20.0%, Java 29.1%, Kotlin 9.1%, C++ 9.0%, C 8.6%, TypeScript 7.2%, Jupyter Notebook 6.0%"/>
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=emulsazib&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8)
+<img width="100%" src="assets/trophy-card.svg" alt="GitHub achievements: Stars rank A (20), Commits A (125), Followers B (11), Repos A (24), PRs B (6), Issues C (0), Contribs B (375)"/>
 
 <!-- Contribution activity graph -->
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=emulsazib&bg_color=0d1117&color=2C97DE&line=2C97DE&point=ffffff&area=true&hide_border=true)](https://github.com/emulsazib)
