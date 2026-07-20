@@ -80,13 +80,13 @@ Whether I'm shipping a **multi-tenant SaaS platform**, modeling a **custom micro
 ![Logisim](https://img.shields.io/badge/Logisim-4B8BBE?style=flat&logo=logmein&logoColor=white)
 
 ### 🛡️ Cybersecurity, AI & Low-Level Architecture
-![Malware Analysis](https://img.shields.io/badge/Malware%20Analysis-8B000lat&logo=virustotal&logoColor=white)
-![Reverse Engineering](https://img.shields.io/badge/Reverse%20Engineering%20(dnSpy)-512BDlat&logo=dotnet&logoColor=white)
-![YOLOv11](https://img.shields.io/badge/YOLOv11-00FFFlat&logo=opencv&logoColor=black)
-![Deep RL](https://img.shields.io/badge/Deep%20Reinforcement%20Learning-FF408lat&logo=pytorch&logoColor=white)
-![LLVM](https://img.shields.io/badge/LLVM-262D3lat&logo=llvm&logoColor=white)
-![Assembly](https://img.shields.io/badge/Assembly%20%26%20Custom%20ISA-6E4C1lat&logo=gnubash&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776Alat&logo=python&logoColor=white)
+![Malware Analysis](https://img.shields.io/badge/Malware%20Analysis-8B000?style=flat&logo=virustotal&logoColor=white)
+![Reverse Engineering](https://img.shields.io/badge/Reverse%20Engineering%20(dnSpy)-512BD?style=flat&logo=dotnet&logoColor=white)
+![YOLOv11](https://img.shields.io/badge/YOLOv11-00FFFlat&logo=ope?style=flat&logoColor=black)
+![Deep RL](https://img.shields.io/badge/Deep%20Reinforcement%20Learning-FF408?style=flat&logo=pytorch&logoColor=white)
+![LLVM](https://img.shields.io/badge/LLVM-262D3?style=flat&logo=llvm&logoColor=white)
+![Assembly](https://img.shields.io/badge/Assembly%20%26%20Custom%20ISA-6E4C1?style=flat&logo=gnubash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776A?style=flat&logo=python&logoColor=white)
 
 ---
 
