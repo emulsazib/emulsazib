@@ -9,7 +9,7 @@
 
 <!-- ============================ HERO BANNER ============================ -->
 <a href="https://emulsazib.me">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Emul%20Ahamed%20Sazib&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20•%20Embedded%20Systems%20•%20AI%20%26%20Cybersecurity&descSize=18&descAlignY=58" alt="Emul Ahamed Sazib — Full-Stack Developer, Embedded Systems, AI & Cybersecurity Engineer"/>
+  <img width="100%" src="assets/banner.svg" alt="Emul Ahamed Sazib — Full-Stack Developer, Embedded Systems, AI & Cybersecurity Engineer"/>
 </a>
 
 <!-- ============================ TYPING SUB-HEAD ============================ -->
