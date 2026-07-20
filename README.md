@@ -124,7 +124,7 @@ Whether I'm shipping a **multi-tenant SaaS platform**, modeling a **custom micro
 <img height="165" src="assets/stats-card.svg" alt="GitHub stats: 20 stars earned, 125 commits, 6 pull requests, 0 issues, 24 public repositories, 375 total contributions"/>
 <img height="165" src="assets/streak-card.svg" alt="Contribution streak: 375 total contributions since January 2022, 6-day current streak, 6-day longest streak"/>
 
-<img height="188" src="assets/top-langs-card.svg" alt="Most used languages, normalised per repository: Python 30.0%, JavaScript 17.0%, Java 9.1%, Kotlin 9.1%, C++ 9.0%, C 8.6%, TypeScript 7.2%, Jupyter Notebook 6.0%"/>
+<img height="188" src="assets/top-langs-card.svg" alt="Most used languages, normalised per repository: Python 30.0%, JavaScript 20.0%, Java 29.1%, Kotlin 9.1%, C++ 9.0%, C 8.6%, TypeScript 7.2%, Jupyter Notebook 6.0%"/>
 
 ![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=emulsazib&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8)
 
