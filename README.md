@@ -1,53 +1,173 @@
-# Hi there 👋, I'm Emul Ahamed Sazib
+<!--
+════════════════════════════════════════════════════════════════════
+  ⚠️  ONE-TIME SETUP  ⚠️
+  This README defaults your GitHub username to "emulsazib" (from emulsazib.me).
+  If your real handle is different, Find-and-Replace "emulsazib" → your-username.
+  Also replace the LinkedIn / Twitter / Email placeholders in the "Connect" section.
+════════════════════════════════════════════════════════════════════
+-->
 
-**Software Engineer | Full-Stack Developer | IoT & Cybersecurity Enthusiast**
+<!-- ============================ HERO BANNER ============================ -->
+<a href="https://emulsazib.me">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Emul%20Ahamed%20Sazib&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20•%20Embedded%20Systems%20•%20AI%20%26%20Cybersecurity&descSize=18&descAlignY=58" alt="Emul Ahamed Sazib — Full-Stack Developer, Embedded Systems, AI & Cybersecurity Engineer"/>
+</a>
 
-I am a Software Engineer and Developer currently studying Electrical and Computer Engineering at North South University in Dhaka. I thrive at the intersection of software and hardware, with a strong focus on full-stack architecture, embedded systems, and hands-on cybersecurity research. Whether I'm building multi-tenant web applications, modeling custom microprocessors, or designing AI-enabled threat analysis frameworks, I love solving complex engineering problems.
+<!-- ============================ TYPING SUB-HEAD ============================ -->
+<div align="center">
 
----
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=2C97DE&center=true&vCenter=true&width=720&lines=Software+Engineer+%40+North+South+University;Full-Stack+%7C+React+%2B+Node+%2B+Flutter;Embedded+Systems+%7C+STM32+%2B+ESP32+%2B+C;AI-Enabled+Cybersecurity+%26+Malware+Analysis;I+build+where+software+meets+hardware.)](https://git.io/typing-svg)
 
-### 🚀 What I'm doing right now
-* 🔭 Engineering **Smartlard.ai**, a property management platform bridging automated listing metrics and smart hardware overrides.
-* 🛡️ Researching and building **AETHER**, an AI-Enabled Framework for Automated Malware Analysis and Attribution.
-* 💻 Exploring low-level computer architecture, including custom LLVM frontends and MIPS datapath simulation.
-* ⚽ Analyzing historical UEFA Champions League player stats and career milestones in my downtime.
+<!-- ============================ SOCIAL / STATS BADGES ============================ -->
+[![Portfolio](https://img.shields.io/badge/Portfolio-emulsazib.me-2C97DE?style=for-the-badge&logo=googlechrome&logoColor=white)](https://emulsazib.me)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
+[![X](https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOUR_HANDLE)
 
----
+![Profile Views](https://komarev.com/ghpvc/?username=emulsazib&label=Profile%20Views&color=2C97DE&style=flat-square)
+![Location](https://img.shields.io/badge/Based%20in-Dhaka,%20Bangladesh-107C41?style=flat-square&logo=googlemaps&logoColor=white)
+![Open to Work](https://img.shields.io/badge/Open%20to-Remote%20Roles-success?style=flat-square)
 
-### 🛠️ Tech Stack & Skills
-**Full-Stack Development**
-*   **Frameworks & Libraries:** React.js, Flutter (Web & Mobile), Node.js, Express.js, Django
-*   **Databases & Architecture:** MongoDB, WebRTC, Multi-tenant architectures, RESTful API design
-
-**Embedded Systems & Hardware**
-*   **Microcontrollers:** STM32 (Blue Pill), ESP32-WROOM, ESP32-CAM
-*   **Tools & Environments:** Arduino IDE, OpenOCD, Logisim, I2C Communications, Hardware Abstraction Layer (HAL) in C
-
-**Cybersecurity, AI & Low-Level Architecture**
-*   **Security:** Malware Analysis Labs, Network Isolation, Intercepting Proxies, Reverse Engineering (dnSpy)
-*   **AI/ML & Automation:** YOLOv11 (Real-time computer vision), Deep Reinforcement Learning (Stock trading models), AI-driven Workflow Automation
-*   **Low-Level:** LLVM Compiler Infrastructure, Assembly syntax, Custom Instruction Set Architectures (ISA)
-
----
-
-### 📂 Featured Projects
-*   **genCRM:** A multi-tenant full-stack customer relationship management application featuring real-time WebRTC communication services, backed by an Express.js backend and a Flutter web interface.
-*   **AI-Powered IoT Security System:** An embedded automation system utilizing an ESP32-CAM and a custom-trained YOLOv11 model for real-time violence detection and facial reconstruction.
-*   **Custom 20-Bit MIPS Architecture & Assembler:** Designed a 15-instruction 20-bit MIPS datapath in Logisim and engineered a custom Python assembler to validate execution and translation.
-*   **Home Automation Embedded Prototype:** Built on an STM32 Blue Pill, featuring I2C multi-mode servo triggers, environmental thermal thresholds, and automated password matching directly at the hardware level.
+</div>
 
 ---
 
-### 📫 Let's Connect!
-*   **Website / Portfolio:** [emulsazib.me](https://emulsazib.me)
-*   **LinkedIn:** [Add your LinkedIn URL here](#)
-*   **Twitter/X:** [Add your Twitter URL here](#)
-*   **Email:** [Add your Contact Email here](#)
+## 🧭 About Me
+
+I'm a **Software Engineer and Electrical & Computer Engineering (ECE) student at North South University, Dhaka**, working at the intersection of **software, hardware, and security**. My focus spans **full-stack web architecture, embedded systems and IoT, and AI-enabled cybersecurity research**.
+
+Whether I'm shipping a **multi-tenant SaaS platform**, modeling a **custom microprocessor datapath**, or designing an **explainable-AI malware-analysis framework**, I care about one thing: **solving hard engineering problems end to end** — from the silicon up to the browser.
+
+- 🎓 **B.Sc. in Electrical & Computer Engineering** — North South University
+- 🧩 **Domains:** Full-Stack Development · Embedded Systems / IoT · Cybersecurity · Applied AI/ML · Low-Level Computer Architecture
+- 🌍 **Availability:** Open to **remote software, embedded, and AI/security** opportunities
+- 💬 **Ask me about:** React, Node.js, Flutter, STM32/ESP32, YOLOv11, malware analysis, LLVM & custom ISAs
 
 ---
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radium" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=radium" alt="GitHub Streak" />
-</p>
 
-*(Don't forget to replace `YOUR_GITHUB_USERNAME` in the image links above to show your live stats!)*
+## 🚀 What I'm Building Right Now
+
+| 🔭 Project | Focus |
+|-----------|-------|
+| **Smartlard.ai** | A property-management platform bridging automated listing metrics with smart-hardware overrides. |
+| **AETHER** | An AI-Enabled Framework for **Automated Malware Analysis, Attribution & Explainable AI (XAI)**. |
+| **Low-Level Architecture** | Custom **LLVM frontends** and **MIPS datapath simulation** — exploring how compilers meet silicon. |
+| ⚽ **Football Analytics** | Modeling historical **UEFA Champions League** player stats & career milestones for fun. |
+
+---
+
+## 🛠️ Tech Stack & Toolbox
+
+### 💻 Full-Stack Development
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+
+### 🔩 Embedded Systems & Hardware
+![STM32](https://img.shields.io/badge/STM32%20Blue%20Pill-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32--WROOM%2FCAM-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![C](https://img.shields.io/badge/C%20(HAL)-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![Arduino](https://img.shields.io/badge/Arduino%20IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![OpenOCD](https://img.shields.io/badge/OpenOCD-6DB33F?style=for-the-badge&logo=gnu&logoColor=white)
+![I2C](https://img.shields.io/badge/I2C-FF6F00?style=for-the-badge&logo=texasinstruments&logoColor=white)
+![Logisim](https://img.shields.io/badge/Logisim-4B8BBE?style=for-the-badge&logo=logmein&logoColor=white)
+
+### 🛡️ Cybersecurity, AI & Low-Level Architecture
+![Malware Analysis](https://img.shields.io/badge/Malware%20Analysis-8B0000?style=for-the-badge&logo=virustotal&logoColor=white)
+![Reverse Engineering](https://img.shields.io/badge/Reverse%20Engineering%20(dnSpy)-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![YOLOv11](https://img.shields.io/badge/YOLOv11-00FFFF?style=for-the-badge&logo=opencv&logoColor=black)
+![Deep RL](https://img.shields.io/badge/Deep%20Reinforcement%20Learning-FF4088?style=for-the-badge&logo=pytorch&logoColor=white)
+![LLVM](https://img.shields.io/badge/LLVM-262D3A?style=for-the-badge&logo=llvm&logoColor=white)
+![Assembly](https://img.shields.io/badge/Assembly%20%26%20Custom%20ISA-6E4C13?style=for-the-badge&logo=gnubash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+---
+
+## 📂 Featured Projects
+
+### 🏢 genCRM — Multi-Tenant Real-Time CRM Platform
+> A full-stack, **multi-tenant customer-relationship-management** application with **real-time WebRTC communication**, an **Express.js** backend, and a **Flutter web** interface.
+
+`Flutter Web` · `Express.js` · `WebRTC` · `MongoDB` · `Multi-Tenant Architecture`
+
+---
+
+### 🎥 AI-Powered IoT Security System — Edge Vision on ESP32-CAM
+> An embedded automation system using an **ESP32-CAM** and a **custom-trained YOLOv11 model** for **real-time violence detection and facial reconstruction** — computer vision running at the edge.
+
+`ESP32-CAM` · `YOLOv11` · `Computer Vision` · `Edge AI` · `Real-Time Inference`
+
+---
+
+### 🧮 Custom 20-Bit MIPS Architecture & Assembler
+> A **15-instruction, 20-bit MIPS datapath** designed in **Logisim**, paired with a **custom Python assembler** that validates execution and instruction translation from source to machine code.
+
+`Logisim` · `Computer Architecture` · `Python Assembler` · `Custom ISA` · `Datapath Design`
+
+---
+
+### 🏠 Home Automation Embedded Prototype — STM32 Blue Pill
+> A hardware-level automation prototype on the **STM32 Blue Pill** featuring **I2C multi-mode servo triggers**, **environmental thermal thresholds**, and **automated password matching** — all handled directly on the microcontroller.
+
+`STM32` · `I2C` · `HAL in C` · `Sensor Fusion` · `Bare-Metal Firmware`
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=emulsazib&show_icons=true&count_private=true&hide_border=true&title_color=2C97DE&icon_color=2C97DE&text_color=9f9f9f&bg_color=0d1117" alt="Emul Ahamed Sazib's GitHub Stats"/>
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=emulsazib&hide_border=true&background=0d1117&stroke=2C97DE&ring=2C97DE&fire=FF6F00&currStreakLabel=2C97DE" alt="GitHub Streak"/>
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emulsazib&layout=compact&hide_border=true&title_color=2C97DE&text_color=9f9f9f&bg_color=0d1117&langs_count=8" alt="Most Used Languages"/>
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=emulsazib&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8)
+
+<!-- Contribution activity graph -->
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=emulsazib&bg_color=0d1117&color=2C97DE&line=2C97DE&point=ffffff&area=true&hide_border=true)](https://github.com/emulsazib)
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+![Snake animation](https://raw.githubusercontent.com/emulsazib/emulsazib/output/github-contribution-grid-snake-dark.svg)
+
+<sub>The snake needs a one-time GitHub Action — see setup note at the bottom.</sub>
+
+</div>
+
+---
+
+## 📫 Let's Connect
+
+<div align="center">
+
+I'm always open to collaborating on **full-stack, embedded, IoT, or AI-security** projects — or just talking shop about compilers, microcontrollers, and Champions League stats.
+
+[![Portfolio](https://img.shields.io/badge/🌐%20emulsazib.me-2C97DE?style=for-the-badge)](https://emulsazib.me)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
+[![X](https://img.shields.io/badge/X%2FTwitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOUR_HANDLE)
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=20&fontColor=ffffff&fontAlignY=70" alt="footer"/>
+
+<!--
+════════════════════════════════════════════════════════════════════
+  🐍 SNAKE SETUP (optional, ~2 min):
+  1. Create a repo named exactly the same as your username (emulsazib/emulsazib).
+  2. Add .github/workflows/snake.yml with the Platane/snk action, output branch "output".
+  3. Run it once from the Actions tab. The image above will populate automatically.
+  Guide: https://github.com/Platane/snk
+════════════════════════════════════════════════════════════════════
+-->
