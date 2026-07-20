@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 165" role="img" aria-labelledby="t d" preserveAspectRatio="xMidYMid meet">
+  <title id="t">GitHub Contribution Streak</title>
+  <desc id="d">Static snapshot: 375 total contributions since 2022, current streak 6 days, longest streak 6 days.</desc>
+  <rect width="470" height="165" rx="6" fill="#0d1117"/>
+  <text x="78" y="62" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">375</text>
+  <text x="78" y="87" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#9f9f9f">Total Contributions</text>
+  <text x="78" y="106" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" fill="#6b7681">Jan 1, 2022 – Jul 21, 2026</text>
+  <text x="235" y="62" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">6</text>
+  <text x="235" y="87" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FF6F00">Current Streak</text>
+  <text x="235" y="106" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" fill="#6b7681">Jul 16 – Jul 21, 2026</text>
+  <text x="392" y="62" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">6</text>
+  <text x="392" y="87" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#9f9f9f">Longest Streak</text>
+  <text x="392" y="106" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" fill="#6b7681">Jun 13 – Jun 18, 2026</text>
+  <path d="M235 11 c 6 6 9 10 9 14 a 9 9 0 0 1 -18 0 c 0 -4 3 -8 9 -14 z" fill="none" stroke="#FF6F00" stroke-width="1.8"/>
+  <path d="M156 42 V 116" stroke="#1f2630" stroke-width="1.5"/>
+  <path d="M313 42 V 116" stroke="#1f2630" stroke-width="1.5"/>
+  <text x="456" y="156" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" fill="#6b7681">as of 21 Jul 2026</text>
+</svg>

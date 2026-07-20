@@ -121,10 +121,10 @@ Whether I'm shipping a **multi-tenant SaaS platform**, modeling a **custom micro
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=emulsazib&show_icons=true&count_private=true&hide_border=true&title_color=2C97DE&icon_color=2C97DE&text_color=9f9f9f&bg_color=0d1117" alt="Emul Ahamed Sazib's GitHub Stats"/>
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=emulsazib&hide_border=true&background=0d1117&stroke=2C97DE&ring=2C97DE&fire=FF6F00&currStreakLabel=2C97DE" alt="GitHub Streak"/>
+<img height="165" src="assets/stats-card.svg" alt="GitHub stats: 20 stars earned, 125 commits, 6 pull requests, 0 issues, 24 public repositories, 375 total contributions"/>
+<img height="165" src="assets/streak-card.svg" alt="Contribution streak: 375 total contributions since January 2022, 6-day current streak, 6-day longest streak"/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emulsazib&layout=compact&hide_border=true&title_color=2C97DE&text_color=9f9f9f&bg_color=0d1117&langs_count=8" alt="Most Used Languages"/>
+<img height="188" src="assets/top-langs-card.svg" alt="Most used languages, normalised per repository: Python 26.0%, JavaScript 17.0%, Java 9.1%, Kotlin 9.1%, C++ 9.0%, C 8.6%, TypeScript 7.2%, Jupyter Notebook 6.0%"/>
 
 ![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=emulsazib&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8)
 
@@ -154,9 +154,9 @@ Whether I'm shipping a **multi-tenant SaaS platform**, modeling a **custom micro
 I'm always open to collaborating on **full-stack, embedded, IoT, or AI-security** projects — or just talking shop about compilers, microcontrollers, and Champions League stats.
 
 [![Portfolio](https://img.shields.io/badge/🌐%20emulsazib.me-2C97DE?style=for-the-badge)](https://emulsazib.me)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
-[![X](https://img.shields.io/badge/X%2FTwitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOUR_HANDLE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emulahamedsazib/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:emul.sazib@gmail.com)
+[![X](https://img.shields.io/badge/X%2FTwitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/emulsazib)
 
 </div>
 

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 165" role="img" aria-labelledby="t d" preserveAspectRatio="xMidYMid meet">
+  <title id="t">Emul Ahamed Sazib's GitHub Stats</title>
+  <desc id="d">Static snapshot of GitHub statistics: 20 stars, 125 commits, 6 pull requests, 0 issues, 24 public repositories, 375 total contributions.</desc>
+  <rect width="460" height="165" rx="6" fill="#0d1117"/>
+  <text x="22" y="30" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="600" fill="#2C97DE">Emul Ahamed Sazib's GitHub Stats</text>
+  <circle cx="27" cy="54" r="2.5" fill="#2C97DE"/>
+  <text x="40" y="58" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="12.5" fill="#9f9f9f">Total Stars Earned</text>
+  <text x="300" y="58" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="end" fill="#2C97DE">20</text>
+  <circle cx="27" cy="75" r="2.5" fill="#2C97DE"/>
+  <text x="40" y="79" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="12.5" fill="#9f9f9f">Total Commits</text>
+  <text x="300" y="79" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="end" fill="#2C97DE">125</text>
+  <circle cx="27" cy="96" r="2.5" fill="#2C97DE"/>
+  <text x="40" y="100" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="12.5" fill="#9f9f9f">Total PRs</text>
+  <text x="300" y="100" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="end" fill="#2C97DE">6</text>
+  <circle cx="27" cy="117" r="2.5" fill="#2C97DE"/>
+  <text x="40" y="121" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="12.5" fill="#9f9f9f">Total Issues</text>
+  <text x="300" y="121" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="end" fill="#2C97DE">0</text>
+  <circle cx="27" cy="138" r="2.5" fill="#2C97DE"/>
+  <text x="40" y="142" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="12.5" fill="#9f9f9f">Public Repositories</text>
+  <text x="300" y="142" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="end" fill="#2C97DE">24</text>
+  <circle cx="385" cy="88" r="40" fill="none" stroke="#1f2630" stroke-width="6"/>
+  <circle cx="385" cy="88" r="31" fill="none" stroke="#2C97DE" stroke-width="2" opacity="0.55"/>
+  <text x="385" y="89" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif" font-size="23" font-weight="700" fill="#ffffff">375</text>
+  <text x="385" y="105" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="6.5" letter-spacing="0.5" fill="#6b7681">CONTRIBUTIONS</text>
+  <text x="446" y="156" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" fill="#6b7681">as of 21 Jul 2026</text>
+</svg>
